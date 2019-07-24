@@ -1,0 +1,56 @@
+nav, footer {
+  background-color: grey;
+  height: 30px;
+}
+
+section {
+  padding: 100px;
+
+}
+
+.a {
+  background-color: #F13131;
+  width:900px;
+}
+
+.b {
+  background-color: #F19731;
+  width:900px;
+}
+
+.c {
+  background-color: #F1EE31;
+  width:100px;
+
+}
+.be{
+  display:flex;
+  justify-content: flex-end;
+
+}
+
+@media screen and (max-width:985px){
+  .be{
+    display:flex;
+    justify-content: flex-end;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+  .be{
+    display:flex;
+    flex-direction:column;
+    }
+    .c{
+      width:350px;
+    }
+    .b{
+      width:350px;
+    }
+    .a{
+      width:350px;
+    }
+
+
+}
